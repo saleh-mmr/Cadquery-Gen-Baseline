@@ -24,7 +24,7 @@ Build a deep learning model that generates valid CadQuery 3D modeling code from 
 3. Trained the encoder-decoder model on a subset (1,000 samples, 2 epochs)
 4. Generated CadQuery code from test images
 5. Evaluated performance using:
-   - ✅ `evaluate_syntax_rate_simple()` (Valid Syntax Rate)
+   - `evaluate_syntax_rate_simple()` (Valid Syntax Rate)
 
 ---
 
@@ -50,11 +50,11 @@ This is expected due to:
 ---
 
 ## Improvements (If More Time)
-- ✅ Pretrain GPT2 on CadQuery code only (language modeling)
-- 🧱 Add structure-aware prompts (e.g., `# Sketch`, `# Extrude`)
-- ⚙️ Use LoRA for lightweight fine-tuning
-- 🔁 RLHF using `Valid Syntax Rate` as reward
-- 📐 Evaluate `IOU` similarity via `best_iou.py` locally
+-  Pretrain GPT2 on CadQuery code only (language modeling)
+-  Add structure-aware prompts (e.g., `# Sketch`, `# Extrude`)
+-  Use LoRA for lightweight fine-tuning
+-  RLHF using `Valid Syntax Rate` as reward
+-  Evaluate `IOU` similarity via `best_iou.py` locally
 
 ---
 
